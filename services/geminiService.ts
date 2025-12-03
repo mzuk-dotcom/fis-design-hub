@@ -2,7 +2,8 @@
 import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { GradeLevel, SkillDomain, Challenge, CollaborativeProject, ATLSkill, DifficultyLevel } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GOOGLE_CLIENT_KEY });
+const ai = new GoogleGenAI({apiKey: import.meta.env.VITE_GOOGLE_CLIENT_KEY });
+
 
 // --- FIS Design Standards Data (OCR Content) ---
 // UPDATED: STRICTLY FILTERED TO CRITERION C (Technical Skills) ONLY
