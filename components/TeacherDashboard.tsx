@@ -386,7 +386,7 @@ const TeacherDashboard: React.FC<TeacherDashboardProps> = ({ sharedSubmissions =
                          <p className="text-sm text-slate-500">Click any cell to identify struggling students and assign support.</p>
                      </div>
                      <div className="flex items-center space-x-3 text-xs text-slate-500 bg-white px-3 py-2 rounded-lg border border-slate-200 shadow-sm">
-                         <div className="flex items-center"><span className="w-2 h-2 rounded-full bg-green-500 mr-1"></span> >85%</div>
+                         <div className="flex items-center"><span className="w-2 h-2 rounded-full bg-green-500 mr-1"></span> {'>'}85%</div>
                          <div className="flex items-center"><span className="w-2 h-2 rounded-full bg-yellow-400 mr-1"></span> 60-85%</div>
                          <div className="flex items-center"><span className="w-2 h-2 rounded-full bg-red-400 mr-1"></span> {'<'}60%</div>
                      </div>
