@@ -1,4 +1,4 @@
-
+console.log("ENV:", import.meta.env);
 import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { GradeLevel, SkillDomain, Challenge, CollaborativeProject, ATLSkill, DifficultyLevel } from '../types';
 
