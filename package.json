@@ -15,7 +15,7 @@
     "recharts": "2.12.0",
     "react-confetti": "6.1.0",
     "@google/genai": "1.30.0",
-    "jspdf": "latest"
+    "jspdf": "3.0.4" 
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
